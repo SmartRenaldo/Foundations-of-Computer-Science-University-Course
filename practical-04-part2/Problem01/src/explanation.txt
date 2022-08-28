@@ -1,0 +1,21 @@
+//==================================
+// Foundations of Computer Science
+// Student: Yiqi Li
+// id: a1787585
+// Semester: Senemter 2
+// Year: 2020
+// Practical Number: 4
+//===================================
+
+public class HanoiTower:
+    static int move: record step numbers
+    private void move() --> called by private void Hanoi(int disk, int a, int b, int c)
+    private void Hanoi(int disk, int a, int b, int c) :
+        --> called by public void solve(int disk);
+        disk == 1 is the base case;
+        when disk > 1, use recursion
+    public void solve(int disk) --> show each step
+    public HanoiTower() --> show each step when disk == 3
+    public HanoiTower(int dTmp) --> show each step when disk == dTmp
+
+
